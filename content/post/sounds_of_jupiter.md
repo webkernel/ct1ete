@@ -11,7 +11,7 @@ categories = [
 ]
 +++
 
-It is relatively easy to receive the natural radio emissions from planet Jupiter. Just a simple dipole, a radio with SSB reception tuned to 20.1 Mhz. It is important to do some planning to calculate Jupiter's sky position regarding the observing station. RadioSky Publishing provides a program called [Radio Jupiter Pro](http://www.radiosky.com/rjpro3ishere.html) that calculates Jupiter's position and elevation, among other features. You have a 30-days trial but the license is not very expensive.
+It is relatively easy to receive the natural radio emissions from planet Jupiter. Just a simple dipole, a radio with SSB reception tuned to 20.1 Mhz. It is important to do some planning to calculate Jupiter's sky position regarding the observing station. *RadioSky Publishing* provides a program called [Radio Jupiter Pro](http://www.radiosky.com/rjpro3ishere.html) that calculates Jupiter's position and elevation, among other features. You have a 30-days trial but the license is not very expensive.
 
 For those who wish to study further in this field, NASA has an online project called [Radio Jove](http://radiojove.gsfc.nasa.gov/), focused on the study of Jovian emissions. In addition to theoretical and practical examples, the agency sells, for a very modest amount, an easy-to-build radio telescope kit consisting of a 20.1 MHz tuned radio and a dipole antenna.
 

@@ -20,11 +20,17 @@ Alex, RD1AV, operates on the HF bands from Vostok base in Antarctica (RI1ANC). V
 
 I worked Alex on 20 meters, SSB and CW.
 
-![Alex, RD1AV](/images/rd1av.jpg)
-<br>Alex, RD1AV
+<figure>
+  <img src="/images/rd1av.jpg" alt="RD1AV">
+  <figcaption>Alex, RD1AV</figcaption>
+</figure>
 
-![Alex, RD1AV](/images/ri1anc_b.jpg)
-<br>Backside of RI1ANC’s QSL Card
+<figure>
+  <img src="/images/ri1anc_b.jpg" alt="RI1ANC QSL">
+  <figcaption>Backside of RI1ANC’s QSL Card</figcaption>
+</figure>
+
+
 
 
 

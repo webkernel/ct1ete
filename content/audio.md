@@ -4,10 +4,10 @@ date: 2019-10-05T16:45:16+01:00
 draft: false
 menu: "main"
 ---
-<center>
-# CW Training
-</center>
-<center>**Morse Runner 40 wpm training**</center>
+
+{{% expandable label="CW training" level="2" %}}
+
+Morse Runner 40 wpm training<br>
 
 <figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
 <audio controls preload="{{ .Get "preload" | default "metadata" }}">
@@ -16,7 +16,7 @@ menu: "main"
 </audio>
 </figure>
 
-<center>**Morse Runner 50 wpm training**</center>
+Morse Runner 50 wpm training<br>
 
 <figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
 <audio controls preload="{{ .Get "preload" | default "metadata" }}">
@@ -32,11 +32,11 @@ menu: "main"
 </audio>
 </figure>
 
-<center>
-# ISS QSO's
-</center>
+{{% /expandable %}}
 
-<center>**NA1SS Susan Helms**</center>
+{{% expandable label="ISS QSO's" level="2" %}}
+
+NA1SS Susan Helms<br>
 
 <figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
 <audio controls preload="{{ .Get "preload" | default "metadata" }}">
@@ -52,7 +52,7 @@ menu: "main"
 </audio>
 </figure>
 
-<center>**NA1SS William McArthur**</center>
+NA1SS William McArthur
 
 <figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
 <audio controls preload="{{ .Get "preload" | default "metadata" }}">
@@ -61,7 +61,7 @@ menu: "main"
 </audio>
 </figure>
 
-<center>**NA1SS Frank Culbertson**</center>
+NA1SS Frank Culbertson
 
 <figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
 <audio controls preload="{{ .Get "preload" | default "metadata" }}">
@@ -70,7 +70,8 @@ menu: "main"
 </audio>
 </figure>
 
-<center>**NA1SS Valery Khorzun**</center>
+NA1SS Valery Khorzun
+
 
 <figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
 <audio controls preload="{{ .Get "preload" | default "metadata" }}">
@@ -86,7 +87,8 @@ menu: "main"
 </audio>
 </figure>
 
-<center>**ISS Repeater QSO's**</center>
+ISS Repeater QSO's
+
 
 <figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
 <audio controls preload="{{ .Get "preload" | default "metadata" }}">
@@ -95,11 +97,10 @@ menu: "main"
 </audio>
 </figure>
 
-<center>
-# SDR Recordings
-</center>
+{{% /expandable %}}
 
-<center>**40m SSB recording (Elad FDM-S1 Receiver)**</center>
+{{% expandable label="SDR Recordings" level="2" %}}
+40m SSB recording (Elad FDM-S1 Receiver)
 
 <figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
 <audio controls preload="{{ .Get "preload" | default "metadata" }}">
@@ -115,7 +116,7 @@ menu: "main"
 </audio>
 </figure>
 
-<center>**30m CW recording (Elad FDM-S1 Receiver)**</center>
+30m CW recording (Elad FDM-S1 Receiver)
 
 <figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
 <audio controls preload="{{ .Get "preload" | default "metadata" }}">
@@ -124,11 +125,10 @@ menu: "main"
 </audio>
 </figure>
 
-<center>
-# Satellite Recordings
-</center>
+{{% /expandable %}}
 
-<center>**XW-2A Beacon**</center>
+{{% expandable label="Satellite Recordings" level="2" %}}
+XW-2A Beacon
 
 <figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
 <audio controls preload="{{ .Get "preload" | default "metadata" }}">
@@ -137,7 +137,7 @@ menu: "main"
 </audio>
 </figure>
 
-<center>**CO-58 Telemetry**</center>
+CO-58 Telemetry
 
 <figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
 <audio controls preload="{{ .Get "preload" | default "metadata" }}">
@@ -145,3 +145,8 @@ menu: "main"
 {{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
 </audio>
 </figure>
+{{% /expandable %}}
+
+
+
+

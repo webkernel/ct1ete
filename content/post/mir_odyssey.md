@@ -17,8 +17,11 @@ By then, the space station MIR was going through very difficult times and its "d
 
 Years later, precisely in 1999, and at a time when several European countries were establishing cooperation protocols with the Russians, [Jean-Pierre Haigneré](http://www.esa.int/esaHS/ESAKMQ0VMOC_astronauts_0.html), engineer of the French Air Force and one of the astronauts (cosmonaut in the Russian version) of the [European Space Agency](http://www.esa.int/esaCP/index.html) (ESA), did not leave the credits to someone else's hands and proved to be one of the cosmonauts traveling in space that made the most use of amateur communication equipment on board the MIR.
 
-![Jean-Pierre Haigneré](/images/jph.jpg)<br>
-Jean-Pierre Haigneré
+<figure>
+  <img src="/images/jph.jpg" alt="Jean-Pierre Haigneré">
+  <figcaption>Cosmonaut <a href="https://www.esa.int/Our_Activities/Human_and_Robotic_Exploration/Astronauts/Jean-Pierre_Haignere">Jean-Pierre Haigneré</a></figcaption>
+</figure>
+
 
 Due to relocation, I was deprived of fixed communications for some time, which forced me to use the car as the headquarters of radio operations. For several days, between early July and mid-August, I persistently tried to make contact with Jean-Pierre Haigneré, knowing in advance the difficulties of getting in touch with technical conditions which, if sufficient, could not compete on an equal footing with those of a fixed installation, more capable in terms of antennas and power. I had a laptop with satellite tracking software installed, a tape recorder and a compass. I was looking for geographically favorable places (with few obstacles around and a visibility, if possible, of 360º). For many weeks I tried unsuccessfully for a reply from space.
 
@@ -45,9 +48,11 @@ However, perseverance usually bears fruit. That is how on August 14, 1999, in th
 
 >**Me:** *Bonne journée Jean-Pierre et toutes mes amitiés, 73.*
 
-![Lunar Eclipse](/images/eclipse_lua.jpg)<br>
-Image: APOD (August 30, 1999)<br>
-Photograph taken by Jean-Pierre Haigneré aboard MIR
+<figure>
+  <img src="/images/eclipse_lua.jpg" alt="Lunar Eclipse">
+  <figcaption><a href="https://apod.nasa.gov/apod/astropix.html">Image: APOD (August 30, 1999)</a> - photograph by Jean-Pierre Haigneré</figcaption>
+</figure>
+
 
 After this feat - I used only 5 watts and a small 1/4 wave magnetic antenna - I would be far from imagining that the next day I would repeat the contact, this time with a 4 element Yagi in the left hand, pointed at my bedroom window, and my handheld in the right hand. The recording of the second contact with Jean-Pierre Haigneré can be heard below.
 

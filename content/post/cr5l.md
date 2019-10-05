@@ -12,5 +12,9 @@ categories = [
 ]
 +++
 
-![CR5L](/images/cr5l_cw.jpg)
+<figure>
+  <img src="/images/cr5l_cw.jpg" alt="RI1ANC QSL">
+  <figcaption>CT1ETE operating CW</figcaption>
+</figure>
+
 

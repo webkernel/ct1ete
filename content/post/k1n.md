@@ -11,8 +11,11 @@ categories = [
 ]
 +++
 
-![K1N](/images/navassabanner.jpg)
-<br>
+<figure>
+  <img src="/images/navassabanner.jpg" alt="K1N Team">
+  <figcaption>K1N Team</figcaption>
+</figure>
+
 It’s on-the-air since February 1st. K1N is the long-awaited activation from Navassa Island, one of the top two DXCC entities of 2015, together with P5 – North Korea. Last time it was activated was in 1992. I am a Ham since 1993, so this one is my first opportunity to work this extremely difficult spot to visit, due to the fact that licenses to go to the island are very hard to get.
 
 The website of the dx’pedition is at [http://navassadx.com/](http://navassadx.com/), where you can find lots of information about the operation, the island and the logistics.
