@@ -11,7 +11,7 @@ categories = [
 ]
 +++
 
-My first radio contact with the late [MIR Orbital Station](http://www.russianspaceweb.com/mir.html) (MIR in Russian means Peace) dates back to 1996. At that time, Russian cosmonaut [Valery Korzun](http://www.jsc.nasa.gov/Bios/htmlbios/korzun.html) was the commander of the mission and an assiduous presence on the radio frequencies. Unfortunately, and for logistical reasons, I could not make a recording of the QSO, which still weighs heavily on my conscience. After all, it was my first contact with a manned space mission ever.
+My first radio contact with the late [MIR Orbital Station](http://www.russianspaceweb.com/mir.html) (MIR in Russian means PEACE) dates back to 1996. At that time, Russian cosmonaut [Valery Korzun](http://www.jsc.nasa.gov/Bios/htmlbios/korzun.html) was the commander of the mission and an assiduous presence on the radio frequencies. Unfortunately, and for logistical reasons, I could not make a recording of the QSO, which still weighs heavily on my conscience. After all, it was my first contact with a manned space mission ever.
 
 By then, the space station MIR was going through very difficult times and its "death" was practically announced. Not long after my contact, a fire in one of the station's modules must have been well-engraved in the memory of [Michael Foale](http://www.jsc.nasa.gov/Bios/htmlbios/foale.html), an Amercian astronaut who was participating in the mission, at a time when the Russian program (which ran from 1995 to 1998) was having economic difficulties, namely the state-owned space construction company [RKK Energia](http://www.energia.ru/).
 
@@ -25,7 +25,7 @@ Years later, precisely in 1999, and at a time when several European countries we
 
 Due to relocation, I was deprived of fixed communications for some time, which forced me to use the car as the headquarters of radio operations. For several days, between early July and mid-August, I persistently tried to make contact with Jean-Pierre Haigneré, knowing in advance the difficulties of getting in touch with technical conditions which, if sufficient, could not compete on an equal footing with those of a fixed installation, more capable in terms of antennas and power. I had a laptop with satellite tracking software installed, a tape recorder and a compass. I was looking for geographically favorable places (with few obstacles around and a visibility, if possible, of 360º). For many weeks I tried unsuccessfully for a reply from space.
 
-However, perseverance usually bears fruit. That is how on August 14, 1999, in the late morning and in the city of Guimarães, surrounded by buildings, the reward comes. 
+However, perseverance usually bears fruit. That is how on August 14, 1999, in the late morning and in the city of Guimarães, surrounded by buildings, the reward comes.
 
 <figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
 <audio controls preload="{{ .Get "preload" | default "metadata" }}">
@@ -78,4 +78,3 @@ This would be my last contact with the MIR station. On March 23, 2001, the MIR r
 In the same year, CT1EAT, Francisco Costa, appears on Portuguese TV Channel SIC showing one of his MIR QSO's.
 
 {{< youtube TcC8vd7Z6NQ >}}
-

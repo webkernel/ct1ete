@@ -15,8 +15,8 @@ Morse Runner 40 wpm training<br>
 {{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
 </audio>
 </figure>
-
-Morse Runner 50 wpm training<br>
+<br><br>
+Morse Runner 50 wpm training<br><br>
 
 <figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
 <audio controls preload="{{ .Get "preload" | default "metadata" }}">
@@ -31,7 +31,7 @@ Morse Runner 50 wpm training<br>
 {{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
 </audio>
 </figure>
-
+<br><br>
 {{% /expandable %}}
 
 {{% expandable label="ISS QSO's" level="2" %}}
@@ -51,7 +51,7 @@ NA1SS Susan Helms<br>
 {{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
 </audio>
 </figure>
-
+<br><br>
 NA1SS William McArthur
 
 <figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
@@ -60,7 +60,7 @@ NA1SS William McArthur
 {{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
 </audio>
 </figure>
-
+<br><br>
 NA1SS Frank Culbertson
 
 <figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
@@ -69,7 +69,7 @@ NA1SS Frank Culbertson
 {{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
 </audio>
 </figure>
-
+<br><br>
 NA1SS Valery Khorzun
 
 
@@ -86,7 +86,7 @@ NA1SS Valery Khorzun
 {{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
 </audio>
 </figure>
-
+<br><br>
 ISS Repeater QSO's
 
 
@@ -99,9 +99,30 @@ ISS Repeater QSO's
 
 {{% /expandable %}}
 
+
+{{% expandable label="MIR QSO's" level="2" %}}
+
+Jean-Pierre Haigneré
+<br>
+<figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
+<audio controls preload="{{ .Get "preload" | default "metadata" }}">
+{{ with .Get "src" }}<source src="/audio/mir14899.mp3" type="audio/mpeg">{{ end }}
+{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</audio>
+</figure>
+
+<figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
+<audio controls preload="{{ .Get "preload" | default "metadata" }}">
+{{ with .Get "src" }}<source src="/audio/mir15899.mp3" type="audio/mpeg">{{ end }}
+{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</audio>
+</figure>
+
+{{% /expandable %}}
+
 {{% expandable label="SDR Recordings" level="2" %}}
 40m SSB recording (Elad FDM-S1 Receiver)
-
+<br>
 <figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
 <audio controls preload="{{ .Get "preload" | default "metadata" }}">
 {{ with .Get "src" }}<source src="/audio/7MHz_Ham.wav" type="audio/mpeg">{{ end }}
@@ -115,7 +136,7 @@ ISS Repeater QSO's
 {{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
 </audio>
 </figure>
-
+<br><br>
 30m CW recording (Elad FDM-S1 Receiver)
 
 <figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
@@ -136,7 +157,7 @@ XW-2A Beacon
 {{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
 </audio>
 </figure>
-
+<br><br>
 CO-58 Telemetry
 
 <figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
