@@ -182,7 +182,7 @@ KKS-1 Beacon
 
 <figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
 <audio controls preload="{{ .Get "preload" | default "metadata" }}">
-{{ with .Get "src" }}<source src="/audio/KKS-1.wav" type="audio/mpeg">{{ end }}
+{{ with .Get "src" }}<source src="/audio/KKS-1.mp3" type="audio/mpeg">{{ end }}
 {{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
 </audio>
 </figure>
