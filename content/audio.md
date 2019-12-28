@@ -194,4 +194,13 @@ AO-27 QSO between CT1ENQ and CT2ISG (and other Q's)
 </audio>
 </figure>
 <br><br>
+AO-51 QSO with EB4DEH
+
+<figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
+<audio controls preload="{{ .Get "preload" | default "metadata" }}">
+{{ with .Get "src" }}<source src="/audio/AO51_120306_CT1ETE.mp3" type="audio/mpeg">{{ end }}
+{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</audio>
+</figure>
+<br><br>
 {{% /expandable %}}
