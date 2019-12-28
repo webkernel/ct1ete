@@ -185,4 +185,13 @@ AO-27 Handheld QSO with CT2ISG
 </audio>
 </figure>
 <br><br>
+AO-27 QSO between CT1ENQ and CT2ISG (and other Q's)
+
+<figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
+<audio controls preload="{{ .Get "preload" | default "metadata" }}">
+{{ with .Get "src" }}<source src="/audio/2007_02_13_CT1ENQ_CT2ISG_AO27.mp3" type="audio/mpeg">{{ end }}
+{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</audio>
+</figure>
+<br><br>
 {{% /expandable %}}
