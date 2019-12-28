@@ -158,6 +158,16 @@ XW-2A Beacon
 </audio>
 </figure>
 <br><br>
+Cute + Compass on the same downlink
+
+<figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
+<audio controls preload="{{ .Get "preload" | default "metadata" }}">
+{{ with .Get "src" }}<source src="/audio/Cute+Compass.mp3" type="audio/mpeg">{{ end }}
+{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</audio>
+</figure>
+<br><br>
+
 CO-58 Telemetry
 
 <figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
