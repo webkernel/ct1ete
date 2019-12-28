@@ -167,11 +167,20 @@ CO-58 Telemetry
 </audio>
 </figure>
 <br><br>
-SO-50 QSO with CT1ENQ
+SO-50 Handheld QSO with CT1ENQ
 
 <figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
 <audio controls preload="{{ .Get "preload" | default "metadata" }}">
 {{ with .Get "src" }}<source src="/audio/2007_01_23-SO50_01_40kbps.mp3" type="audio/mpeg">{{ end }}
+{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</audio>
+</figure>
+<br><br>
+AO-27 Handheld QSO with CT2ISG
+
+<figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
+<audio controls preload="{{ .Get "preload" | default "metadata" }}">
+{{ with .Get "src" }}<source src="/audio/2007_02_10_AO27_02.mp3" type="audio/mpeg">{{ end }}
 {{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
 </audio>
 </figure>
