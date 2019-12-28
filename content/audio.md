@@ -212,7 +212,7 @@ Prism
 
 <figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
 <audio controls preload="{{ .Get "preload" | default "metadata" }}">
-{{ with .Get "src" }}<source src="/audio/prism.wav" type="audio/mpeg">{{ end }}
+{{ with .Get "src" }}<source src="/audio/prism.mp3" type="audio/mpeg">{{ end }}
 {{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
 </audio>
 </figure>
