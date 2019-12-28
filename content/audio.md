@@ -177,6 +177,117 @@ CO-58 Telemetry
 </audio>
 </figure>
 <br><br>
+
+KKS-1 Beacon
+
+<figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
+<audio controls preload="{{ .Get "preload" | default "metadata" }}">
+{{ with .Get "src" }}<source src="/audio/KKS-1.wav" type="audio/mpeg">{{ end }}
+{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</audio>
+</figure>
+<br><br>
+
+Stars (Kukai)
+
+<figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
+<audio controls preload="{{ .Get "preload" | default "metadata" }}">
+{{ with .Get "src" }}<source src="/audio/jr5ybo.wav" type="audio/mpeg">{{ end }}
+{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</audio>
+</figure>
+<br><br>
+
+Pehuensat-1
+
+<figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
+<audio controls preload="{{ .Get "preload" | default "metadata" }}">
+{{ with .Get "src" }}<source src="/audio/pehuensat.mp3" type="audio/mpeg">{{ end }}
+{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</audio>
+</figure>
+<br><br>
+
+Prism
+
+<figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
+<audio controls preload="{{ .Get "preload" | default "metadata" }}">
+{{ with .Get "src" }}<source src="/audio/prism.wav" type="audio/mpeg">{{ end }}
+{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</audio>
+</figure>
+<br><br>
+
+RS-15
+
+<figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
+<audio controls preload="{{ .Get "preload" | default "metadata" }}">
+{{ with .Get "src" }}<source src="/audio/RS15_audio.mp3" type="audio/mpeg">{{ end }}
+{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</audio>
+</figure>
+<br><br>
+
+RS-22
+
+<figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
+<audio controls preload="{{ .Get "preload" | default "metadata" }}">
+{{ with .Get "src" }}<source src="/audio/rs22_20_02_07.mp3" type="audio/mpeg">{{ end }}
+{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</audio>
+</figure>
+<br><br>
+
+Seeds (Talk)
+
+<figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
+<audio controls preload="{{ .Get "preload" | default "metadata" }}">
+{{ with .Get "src" }}<source src="/audio/SeedsTalk.mp3" type="audio/mpeg">{{ end }}
+{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</audio>
+</figure>
+<br><br>
+
+Seeds2
+
+<figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
+<audio controls preload="{{ .Get "preload" | default "metadata" }}">
+{{ with .Get "src" }}<source src="/audio/seeds2.wav" type="audio/mpeg">{{ end }}
+{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</audio>
+</figure>
+<br><br>
+
+Sputnik (commemorative replica)
+
+<figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
+<audio controls preload="{{ .Get "preload" | default "metadata" }}">
+{{ with .Get "src" }}<source src="/audio/Sputnik.mp3" type="audio/mpeg">{{ end }}
+{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</audio>
+</figure>
+<br><br>
+
+RAFT QSO with PE1ITR
+
+<figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
+<audio controls preload="{{ .Get "preload" | default "metadata" }}">
+{{ with .Get "src" }}<source src="/audio/voice6_raft_pe1itr_12feb2007_ct1ete59.mp3" type="audio/mpeg">{{ end }}
+{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</audio>
+</figure>
+<br><br>
+
+FOX-1B Voice Id
+
+<figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
+<audio controls preload="{{ .Get "preload" | default "metadata" }}">
+{{ with .Get "src" }}<source src="/audio/FOX-1B.mp3" type="audio/mpeg">{{ end }}
+{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</audio>
+</figure>
+<br><br>
+
 SO-50 Handheld QSO with CT1ENQ
 
 <figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
