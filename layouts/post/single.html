@@ -35,12 +35,21 @@
         </ul>
       </div>
     {{ end }}
-    
+
     {{ if ne .Params.toc false }}
       {{ partial "toc" . }}
     {{ end }}
 
     {{ .Content }}
   </main>
+
+  <article class="h-entry">
+    <div class="e-content p-name">{{ .Title }}</div>
+
+    <a class="u-url" href="{{.URL}}">
+      Published <time class="dt-published">{{.PublishDate}}</time>
+    </a>
+  </article>
+
   {{ partial "disqus.html" . }}
 {{ end }}
