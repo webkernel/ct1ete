@@ -8,4 +8,20 @@
   {{ with .Site.Params.footer }}
     {{ . | markdownify }}
   {{ end }}
+
+  <p class="footer-copyright h-card vcard">
+    <a style="text-decoration: none" href={{ .Site.BaseURL }}
+       class="p-name u-url url author metatag" rel="me">
+        Paulo Pinto
+    </a> /
+    <a class="p-nickname u-email email metatag" rel="me"
+      href="mailto:ct1ete@gmail.com">
+      CT1ETE
+    </a>
+    <a class="u-url metatag" rel="me" style="display:none"
+      href="https://twitter.com/ct1ete">Twitter
+    </a>
+    <img class="u-photo" src="/images/avatar.png" alt="" style="display:none"/>
+
+  </p>
 </footer>
