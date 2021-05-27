@@ -6,7 +6,7 @@ title: "Home"
 Welcome to **CT1ETE's Blog**: Here I will post some of my thoughts on hamradio and some short stories about my experience:
 
 {{% ticks %}}
-* All opinions are my own except when otherwise 
+* All opinions are my own except when otherwise noted
 * All QSL Cards are mine and were received to confirm my own Q's
 * Feel free to reproduce this content without previous consent. If so, I would appreciate a link to my blog
 * This blog is updated when time permits
