@@ -12,8 +12,4 @@ categories = [
 +++
 
 
-Icom IC-705 + Surface Go 2 connected wirelessly. 
-Thanks to ⁦@OH8STN and @M0IAX for the inspiration. 
-#hamradio #qrp
-
 {{< tweet 1402384811461951499 >}}
