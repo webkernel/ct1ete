@@ -70,7 +70,7 @@ NA1SS Frank Culbertson
 </audio>
 </figure>
 <br><br>
-RS0ISS Valery Khorzun
+RS0ISS Valery Korzun
 
 
 <figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
