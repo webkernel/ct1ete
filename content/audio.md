@@ -70,6 +70,15 @@ NA1SS Frank Culbertson
 </audio>
 </figure>
 <br><br>
+NA1SS Kjell Lindgren
+
+<figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
+<audio controls preload="{{ .Get "preload" | default "metadata" }}">
+{{ with .Get "src" }}<source src="/audio/NA1SS 202207252256z.wav" type="audio/wav">{{ end }}
+{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</audio>
+</figure>
+<br><br>
 RS0ISS Valery Korzun
 
 
