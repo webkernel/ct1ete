@@ -177,6 +177,17 @@ XW-2A Beacon
 </audio>
 </figure>
 <br><br>
+
+XW-2A CW QSO with 4O4A Dragan in Montenegro
+
+<figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
+<audio controls preload="{{ .Get "preload" | default "metadata" }}">
+{{ with .Get "src" }}<source src="/audio/CT1ETE-4O4A-XW-2A.mp3" type="audio/mpeg">{{ end }}
+{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</audio>
+</figure>
+<br><br>
+
 Cute + Compass on the same downlink
 
 <figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
