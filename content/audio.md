@@ -158,7 +158,7 @@ Jean-Pierre Haigneré
 {{% /expandable %}}
 
 {{% expandable label="Satellite Recordings" level="2" %}}
-4L0VE (Georgia) RS-44 SSB QSO
+RS-44 SSB QSO with 4L0VE (Georgia)
 
 <figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
 <audio controls preload="{{ .Get "preload" | default "metadata" }}">
