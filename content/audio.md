@@ -158,6 +158,16 @@ Jean-Pierre Haigneré
 {{% /expandable %}}
 
 {{% expandable label="Satellite Recordings" level="2" %}}
+4L0VE (Georgia) RS-44 SSB QSO
+
+<figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
+<audio controls preload="{{ .Get "preload" | default "metadata" }}">
+{{ with .Get "src" }}<source src="/audio/4L0VE-CT1ETE-RS-44-2022-10-30.mp3" type="audio/mpeg">{{ end }}
+{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</audio>
+</figure>
+<br><br>
+
 XW-2A Beacon
 
 <figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
