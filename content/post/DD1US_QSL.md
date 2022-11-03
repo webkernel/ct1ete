@@ -8,7 +8,7 @@ tags = [
     "satellites",
 ]
 categories = [
-    "QSL"
+    "QSL Cards",
 +++
 
 {{< tweet 1588180075953983488 >}}
